@@ -76,6 +76,7 @@ type Transfer struct {
 	Extract            bool   `json:"extract"`
 	FileID             int64  `json:"file_id"`
 	FinishedAt         *Time  `json:"finished_at"`
+	Hash               string `json:"hash"`
 	ID                 int64  `json:"id"`
 	IsPrivate          bool   `json:"is_private"`
 	MagnetURI          string `json:"magneturi"`
