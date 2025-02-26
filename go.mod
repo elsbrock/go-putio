@@ -1,4 +1,4 @@
-module github.com/putdotio/go-putio
+module github.com/elsbrock/go-putio
 
 go 1.13
 
