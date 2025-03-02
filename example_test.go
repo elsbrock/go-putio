@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/putdotio/go-putio"
+	"github.com/elsbrock/go-putio"
 	"golang.org/x/oauth2"
 )
 

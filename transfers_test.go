@@ -53,7 +53,8 @@ func TestTransfers_Get(t *testing.T) {
 		"trackers": null,
 		"type": "TORRENT",
 		"up_speed": 0,
-		"uploaded": 0
+		"uploaded": 0,
+		"userfile_exists": false
 	}
 	}
 	`
@@ -135,7 +136,8 @@ func TestTransfers_List(t *testing.T) {
 	"trackers": null,
 	"type": "TORRENT",
 	"up_speed": 0,
-	"uploaded": 0
+	"uploaded": 0,
+	"userfile_exists": false
 }]
 }
 	`
@@ -203,7 +205,8 @@ func TestTransfers_Add(t *testing.T) {
 		"trackers": null,
 		"type": "TORRENT",
 		"up_speed": 0,
-		"uploaded": 0
+		"uploaded": 0,
+		"userfile_exists": false
 	}
 }
 `
@@ -298,7 +301,8 @@ func TestTransfers_Retry(t *testing.T) {
 		"trackers": null,
 		"type": "TORRENT",
 		"up_speed": 0,
-		"uploaded": 0
+		"uploaded": 0,
+		"userfile_exists": false
 	}
 }
 `

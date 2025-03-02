@@ -98,6 +98,7 @@ type Transfer struct {
 	Type               string `json:"type"`
 	UploadSpeed        int    `json:"up_speed"`
 	Uploaded           int64  `json:"uploaded"`
+	UserfileExists     bool   `json:"userfile_exists"`
 }
 
 // AccountInfo represents user's account information.
